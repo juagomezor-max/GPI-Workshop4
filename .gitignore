@@ -1,9 +1,26 @@
+# ---- R / RStudio ----
 .Rhistory
 .RData
-.Rproj.user
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# ---- renv (sí commit renv.lock, NO la librería local) ----
 renv/library/
 renv/staging/
-.Renviron
-*.log
+renv/python/
+renv/local/
+renv.lock.bak
+
+# ---- Output (opcional: yo recomiendo versionar figuras/tablas si el profe las quiere ver) ----
+# results/figures/
+# results/tables/
+
+# ---- OS ----
 .DS_Store
+Thumbs.db
 desktop.ini
+
+# ---- Logs / temp ----
+*.log
+*.tmp
